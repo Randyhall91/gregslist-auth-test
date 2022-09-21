@@ -9,7 +9,7 @@ class CarsService {
       throw new Forbidden('Thats not your car... Go away')
     }
     await car.delete()
-    // dbContext.Cars.findByIdAndDelete(car.id)
+    // dbContext.Cars.findByIdAndRemove(car.id)
     // await car.save
 
   }
